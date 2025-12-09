@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(191, 172, 226, 0.35);
+}
+
+.typing-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#textarea {
+  border: 0.1rem solid #a084dc;
+  border-radius: 1rem;
+  max-width: 50rem;
+  width: 50rem;
+  height: 20rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
+#btn {
+  display: inline-block;
+  padding: 1rem 2.4rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #645cbb;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+}
+#btn:hover {
+  background-color: #574bb8;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  color: #645cbb;
+  text-align: center;
+}
+
+#showSentence,
+#score {
+  font-size: 1.6rem;
+  margin: 2rem 0;
+  letter-spacing: 0.02rem;
+  text-align: center;
+}
+
+.timer-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+#show-time {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.5rem;
+  text-align: right;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 0.5rem solid #645cbb;
+}
+
+#sendEmail {
+  display: inline-block;
+  padding: 1rem 2.4rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+}
+#sendEmail:hover {
+  background-color: #218838;
+  cursor: pointer;
+}
