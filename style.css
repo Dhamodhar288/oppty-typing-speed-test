@@ -104,3 +104,51 @@ h2 {
   background-color: #218838;
   cursor: pointer;
 }
+
+.email-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+.email-section label {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+.email-section input {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid #a084dc;
+  border-radius: 0.5rem;
+  width: 30rem;
+}
+.email-section input:focus {
+  outline: none;
+  border-color: #645cbb;
+}
+.email-section #sendEmail {
+  margin-top: 0;
+}
+.email-section input::placeholder {
+  color: #aaa;
+}
+.email-section button:hover {
+  background-color: #218838;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #textarea {
+    width: 90vw;
+    height: 15rem;
+  }
+  .email-section {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .email-section input {
+    width: 90vw;
+  }
+} 
+
